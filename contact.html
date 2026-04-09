@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact – Gulf Coast Connections</title>
+
+    <style>
+        /* BASIC RESET */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #222;
+            background-image: url('images/corkboard.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: repeat;
+        }
+
+        /* GREEN ROOF HEADER */
+        .roof-header img {
+            width: 100%;
+            display: block;
+        }
+
+        /* HEADER */
+        header {
+            background: #003049;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        /* NAVIGATION */
+        nav {
+            background: #d62828;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* PAGE CONTENT */
+        .section {
+            padding: 2rem;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        /* CONTACT FORM */
+        form {
+            background: white;
+            padding: 2rem;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+        label {
+            display: block;
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 0.8rem;
+            margin-top: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        button {
+            background: #003049;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            margin-top: 1rem;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #00243a;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- GREEN ROOF -->
+<div class="roof-header">
+    <img src="images/green-roof.png" alt="Green Roof Header">
+</div>
+
+<header>
+    <h1>Contact Us</h1>
+    <p>Reach out to Gulf Coast Connections — we’re here to help you connect.</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="Jobs.html">Jobs</a>
+    <a href="Crew.html">Crew</a>
+    <a href="Captains.html">Captains</a>
+    <a href="Volunteer.html">Volunteer</a>
+    <a href="Boats.html">Boats</a>
+    <a href="Charters.html">Charters</a>
+    <a href="articles.html">Articles</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="section">
+    <h2>Send a Message</h2>
+
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+
+</body>
+</html>

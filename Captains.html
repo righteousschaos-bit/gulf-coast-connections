@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Captains Board – Gulf Coast Connections</title>
+
+  <style>
+    /* BASIC RESET */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #222;
+      background-image: url('images/corkboard.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: repeat;
+    }
+
+    /* NAVIGATION */
+    nav {
+      background: #d62828;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* GREEN ROOF HEADER */
+    .roof-header img {
+      width: 100%;
+      display: block;
+    }
+
+    /* PAGE TITLE */
+    h1 {
+      text-align: center;
+      margin-top: 1rem;
+      color: #003049;
+    }
+
+    p {
+      text-align: center;
+      max-width: 700px;
+      margin: auto;
+      font-size: 1.1rem;
+    }
+
+    /* CAPTAIN LISTING CARDS (PINNED NOTES) */
+    .listing {
+      background: #fff8e1;
+      border: 1px solid #d6c49a;
+      padding: 20px;
+      margin: 25px auto;
+      border-radius: 6px;
+      max-width: 700px;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.25);
+      position: relative;
+    }
+
+    .listing::before {
+      content: "";
+      background-image: url('images/thumbtack.png');
+      background-size: 40px 40px;
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- GREEN ROOF -->
+<div class="roof-header">
+  <img src="images/green-roof.png" alt="Green Roof Header">
+</div>
+
+<!-- NAVIGATION -->
+<nav>
+  <a href="index.html">Home</a>
+  <a href="Jobs.html">Jobs</a>
+  <a href="Crew.html">Crew</a>
+  <a href="Captains.html">Captains</a>
+  <a href="Volunteer.html">Volunteer</a>
+  <a href="articles.html">Articles</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<!-- PAGE TITLE -->
+<h1>Captains Board</h1>
+<p>Licensed captains available for deliveries, charters, and private work.</p>
+
+<!-- EXAMPLE CAPTAIN LISTING -->
+<div class="listing">
+  <h2>Captain Example</h2>
+  <p><strong>License:</strong> USCG 50 Ton</p>
+  <p><strong>Experience:</strong> 10 years charter + deliveries</p>
+  <p><strong>Boat Type:</strong> Sail & Power</p>
+  <p><strong>Location:</strong> Gulf Coast</p>
+  <p><strong>Contact:</strong> captain@example.com</p>
+</div>
+
+<!-- COPY THIS BLOCK FOR NEW CAPTAINS -->
+<div class="listing">
+  <h2>Captain Name Here</h2>
+  <p><strong>License:</strong> </p>
+  <p><strong>Experience:</strong> </p>
+  <p><strong>Boat Type:</strong> </p>
+  <p><strong>Location:</strong> </p>
+  <p><strong>Contact:</strong> </p>
+</div>
+
+</body>
+</html>
